@@ -1,0 +1,42 @@
+/* All elements of the header */
+header {
+  background-color: burlywood;
+  display: flex;
+  height: 90px;
+  min-height: fit-content;
+  padding: auto;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  background-color: blue;
+  width: 75%;
+  justify-content: space-evenly;
+}
+li {
+  color: azure;
+  display: inline-block;
+}
+
+/* All elements of the main */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+section {
+  
+}
+/* Elements of the first section */
+#firstSection {
+
+}
+/* Elements of the second section */
+
+/* Elements of the third section */
+#thirdSection {
+  display: flex;
+  justify-content: center;
+}
+/* Elements of the article */

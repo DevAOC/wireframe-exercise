@@ -7,15 +7,20 @@ header {
   padding: auto;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
 }
 ul {
   background-color: blue;
-  width: 75%;
-  justify-content: space-evenly;
+  width: 65%;
+  justify-content: flex-start;
+  display: flex;
 }
 li {
   color: azure;
-  display: inline-block;
+  font-size: large;
+  margin-left: 4%;
+  margin-right: 6%;
 }
 
 /* All elements of the main */
@@ -26,17 +31,30 @@ main {
   width: 100%;
 }
 section {
-  
-}
-/* Elements of the first section */
-#firstSection {
-
+  width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 /* Elements of the second section */
-
+#secondSection {
+  justify-content: space-between;
+}
 /* Elements of the third section */
 #thirdSection {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+article {
+  /* width: 480px; */
 }
 /* Elements of the article */
+
+/* Footer */
+footer {
+  width: 100%;
+  margin-top: 15px;
+}

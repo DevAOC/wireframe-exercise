@@ -1,6 +1,6 @@
 /* All elements of the header */
 header {
-  background-color: burlywood;
+  background-color: gray;
   display: flex;
   height: 90px;
   min-height: fit-content;
@@ -10,14 +10,17 @@ header {
   width: 100%;
   margin-bottom: 15px;
 }
-ul {
-  background-color: blue;
-  width: 65%;
-  justify-content: flex-start;
+section {
+  width: 960px;
   display: flex;
 }
+ul {
+  width: 760px;
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+}
 li {
-  color: azure;
   font-size: large;
   margin-left: 4%;
   margin-right: 6%;
@@ -30,9 +33,7 @@ main {
   justify-content: center;
   width: 100%;
 }
-section {
-  width: 960px;
-  display: flex;
+main > section {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 15px;
@@ -44,17 +45,24 @@ section {
 }
 /* Elements of the third section */
 #thirdSection {
-  display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
 }
+section#thirdSection > img {
+  height: 400px;
+}
 article {
-  /* width: 480px; */
+  width: 450px;
 }
 /* Elements of the article */
+h3 {
+  font-size: large;
+}
 
 /* Footer */
 footer {
+  background-color: gray;
   width: 100%;
   margin-top: 15px;
+  height: 125px;
 }
